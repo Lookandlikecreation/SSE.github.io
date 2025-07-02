@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHREE SAI ENTERPRISE</title>
+  <link rel="icon" href="assets/logo.png">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- AOS.js CDN for scroll animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="assets/footer.css">
+</head>
+<body class="bg-white text-[#1A1A1A]">
+  <!-- Sticky Navbar -->
+  <header class="sticky top-0 z-50 bg-white shadow">
+    <nav class="container mx-auto flex items-center justify-between py-4 px-4">
+      <div class="flex items-center space-x-2">
+        <img src="assets/logo.png" alt="Logo" class="h-10 w-auto">
+        
+      </div>
+      <!-- Desktop Menu -->
+      <ul class="hidden md:flex space-x-8 font-semibold">
+        <li><a href="#home" class="hover:text-[#F79517] transition">Home</a></li>
+        <li><a href="#about" class="hover:text-[#F79517] transition">About Us</a></li>
+        <li><a href="#why" class="hover:text-[#F79517] transition">Why Choose Us</a></li>
+        <li><a href="#projects" class="hover:text-[#F79517] transition">Projects</a></li>
+        <li><a href="#contact" class="hover:text-[#F79517] transition">Contact</a></li>
+        <li><a href="services.html" class="hover:text-[#F79517] transition">Services</a></li>
+      </ul>
+      <!-- Mobile Hamburger -->
+      <button id="mobile-menu-btn" class="md:hidden flex items-center px-3 py-2 border rounded text-[#1976D2] border-[#1976D2] focus:outline-none" aria-label="Open Menu">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+      </button>
+    </nav>
+    <!-- Mobile Menu Dropdown -->
+    <div id="mobile-menu" class="md:hidden hidden bg-white shadow px-4 py-4">
+      <ul class="flex flex-col space-y-4 font-semibold">
+        <li><a href="#home" class="hover:text-[#F79517] transition">Home</a></li>
+        <li><a href="#about" class="hover:text-[#F79517] transition">About Us</a></li>
+        <li><a href="#why" class="hover:text-[#F79517] transition">Why Choose Us</a></li>
+        <li><a href="#projects" class="hover:text-[#F79517] transition">Projects</a></li>
+        <li><a href="#contact" class="hover:text-[#F79517] transition">Contact</a></li>
+        <li><a href="services.html" class="hover:text-[#F79517] transition">Services</a></li>
+      </ul>
+    </div>
+  </header>
+  <!-- Hero Section -->
+  <section id="home" class="relative min-h-[100vh] flex items-center justify-center bg-cover bg-center" style="background-image: url('assets/hero.webp');">
+    <!-- Overlay for better readability -->
+    <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+    <div class="relative bg-white bg-opacity-90 p-4 sm:p-8 rounded-xl text-center max-w-2xl mx-2 sm:mx-auto" data-aos="fade-up">
+      <h1 class="text-2xl sm:text-5xl font-bold text-[#1976D2] mb-6">Powering Gujarat with Clean Solar Energy</h1>
+      <p class="text-base sm:text-lg text-gray-700 mb-4">
+        Start using Free Energy.<br>
+        Now get the benefit of ₹78,000 subsidy for installing a rooftop solar system in your city.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#contact" class="bg-[#F79517] hover:bg-orange-600 text-white px-6 py-3 rounded-xl font-bold transition">Get Free Consultation</a>
+        <a href="services.html" class="bg-[#1976D2] hover:bg-blue-800 text-white px-6 py-3 rounded-xl font-bold transition">Our Services</a>
+      </div>
+    </div>
+  </section>
+  <!-- About Us Section -->
+  <section id="about" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4" data-aos="fade-up">
+      <h2 class="text-3xl sm:text-4xl font-bold text-[#1976D2] mb-6 text-center">About Us</h2>
+      <p class="text-base text-gray-700 text-center mb-8">
+        SHREE SAI ENTERPRISE is dedicated to providing high-quality, affordable, and sustainable solar energy solutions for residential, commercial, and industrial clients. Our mission is to accelerate the transition to clean energy by offering cutting-edge solar panel technology and customized energy solutions.<br><br>
+        Based in Navsari, Gujarat, with eight years of dedicated experience, we deliver high-quality solar solutions at the best possible prices. We cater to all types of electrical meter owners, ensuring seamless transitions to solar energy. At SHREE SAI ENTERPRISE, we prioritize customer satisfaction and believe in the power of good quality and friendly service.
+      </p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow text-center" data-aos="fade-up" data-aos-delay="100">
+          <img src="assets/mission.png" alt="Mission" class="mx-auto h-16 mb-4">
+          <h3 class="font-bold text-lg mb-2">Our Mission</h3>
+          <p class="text-gray-700">To be recognized as the premier solar solutions provider, known for our unwavering commitment to customer satisfaction, technological innovation, and the advancement of sustainable energy practices.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow text-center" data-aos="fade-up" data-aos-delay="200">
+          <img src="assets/vision.png" alt="Vision" class="mx-auto h-16 mb-4">
+          <h3 class="font-bold text-lg mb-2">Our Vision</h3>
+          <p class="text-gray-700">To provide our customers with exceptional solar photovoltaic plant installation and maintenance services, delivering superior quality and value. We are dedicated to exceeding customer expectations through friendly, reliable service and comprehensive after-sales support, establishing ourselves as the leading solar solutions provider in the region.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow text-center" data-aos="fade-up" data-aos-delay="300">
+          <img src="assets/philosophy.png" alt="Philosophy" class="mx-auto h-16 mb-4">
+          <h3 class="font-bold text-lg mb-2">Our Philosophy</h3>
+          <p class="text-gray-700">Our philosophy is rooted in building lasting partnerships with our customers. We deliver comprehensive, high-quality solutions that empower our clients to achieve energy independence. We are committed to meticulous workmanship, transparent communication, and unwavering dedication to customer satisfaction.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Why Choose Us Section -->
+  <section id="why" class="py-16">
+    <div class="container mx-auto px-4" data-aos="fade-up">
+      <h2 class="text-3xl sm:text-4xl font-bold text-[#1976D2] mb-6 text-center">Why Choose Us</h2>
+      <p class="text-lg text-[#1976D2] text-center mb-4 font-semibold">✅ Solar Rooftop Loan Now Easily Available</p>
+      
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+        <div class="bg-gray-100 p-6 rounded-xl text-center" data-aos="fade-up" data-aos-delay="100">
+          <img src="assets/pv-module.png" alt="High-Efficiency Solar Panels" class="mx-auto h-20  mb-2">
+          <h4 class="font-bold mb-1">High-Efficiency Solar Panels</h4>
+          <p class="text-gray-700 text-sm">Utilizing the latest photovoltaic (PV) technology</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl text-center" data-aos="fade-up" data-aos-delay="200">
+          <img src="assets/cost-effective.png" alt="Cost-Effective Solutions" class="mx-auto h-20 mb-2">
+          <h4 class="font-bold mb-1">Cost-Effective Solutions</h4>
+          <p class="text-gray-700 text-sm">Helping customers reduce electricity bills</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl text-center" data-aos="fade-up" data-aos-delay="300">
+          <img src="assets/maintenance.png" alt="Maintenance & Monitoring" class="mx-auto h-20 mb-2">
+          <h4 class="font-bold mb-1">Maintenance & Monitoring</h4>
+          <p class="text-gray-700 text-sm">24/7 system support & performance tracking</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl text-center" data-aos="fade-up" data-aos-delay="400">
+          <img src="assets/financing.png" alt="Custom Financing Options" class="mx-auto h-20 mb-2">
+          <h4 class="font-bold mb-1">Custom Financing Options</h4>
+          <p class="text-gray-700 text-sm">Flexible payment plans & incentives</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl text-center" data-aos="fade-up" data-aos-delay="500">
+          <img src="assets/certified-team.png" alt="Certified & Experienced Team" class="mx-auto h-20 mb-2">
+          <h4 class="font-bold mb-1">Certified & Experienced Team</h4>
+          <p class="text-gray-700 text-sm">Proven track record in delivering quality solar projects</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl text-center" data-aos="fade-up" data-aos-delay="600">
+          <img src="assets/market-presence.png" alt="Strong Market Presence" class="mx-auto h-20 mb-2">
+          <h4 class="font-bold mb-1">Strong Market Presence</h4>
+          <p class="text-gray-700 text-sm">Expanding presence in Gujarat and beyond</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl text-center" data-aos="fade-up" data-aos-delay="600">
+          <img src="assets/market-presence.png" alt="Strong Market Presence" class="mx-auto h-20 mb-2">
+          <h4 class="font-bold mb-1">Assistance with online registration</h4>
+          <p class="text-gray-700 text-sm">We will assist you with online registration and other documents.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl text-center" data-aos="fade-up" data-aos-delay="600">
+          <img src="assets/market-presence.png" alt="Strong Market Presence" class="mx-auto h-20 mb-2">
+          <h4 class="font-bold mb-1">Solar panel installation and inverter setup</h4>
+          <p class="text-gray-700 text-sm">We will install the solar panel and inverter for you.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl text-center" data-aos="fade-up" data-aos-delay="600">
+          <img src="assets/market-presence.png" alt="Strong Market Presence" class="mx-auto h-20 mb-2">
+          <h4 class="font-bold mb-1">Structure fitting – engineering-approved</h4>
+          <p class="text-gray-700 text-sm">Engineering-approved, pre-GI, ISI-standard.</p>
+        </div>
+        
+      </div>
+      <div class="text-center mt-8">
+        <p class="text-gray-700">ER. NITESH KARMUR – Chief Operation Officer / General Manager<br>ER. DIPESH PATEL – Product Manager</p>
+      </div>
+    </div>
+  </section>
+  <!-- Our Teams Section -->
+  <section id="team" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4" data-aos="fade-up">
+      <h2 class="text-3xl sm:text-4xl font-bold text-[#1976D2] mb-6 text-center">Our Team</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-4 rounded-xl shadow" data-aos="fade-up" data-aos-delay="100">
+          <img src="assets/team1.png" alt="Project 1" class="rounded mb-2">
+          <h4 class="font-bold mb-1">ER. NITESH KARMUR</h4>
+          <p class="text-gray-700 text-sm">Chief Operation Officer / General Manager</p>
+        </div>
+        <div class="bg-white p-4 rounded-xl shadow" data-aos="fade-up" data-aos-delay="200">
+          <img src="assets/team2.png" alt="Project 2" class="rounded mb-2">
+          <h4 class="font-bold mb-1">ER. DIPESH PATEL</h4>
+          <p class="text-gray-700 text-sm">Product Manager</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4" data-aos="fade-up">
+      <h2 class="text-3xl sm:text-4xl font-bold text-[#1976D2] mb-6 text-center">Major Projects / Clients</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- QUALITRIC ENERGY PVT LTD -->
+        <div class="bg-white p-4 rounded-xl shadow" data-aos="fade-up" data-aos-delay="100">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Qualitric Energy" class="rounded mb-2 h-50 w-full object-cover">
+          <h4 class="font-bold mb-1">QUALITRIC ENERGY PVT LTD</h4>
+          <p class="text-gray-700 text-sm">1.0 mwp on grid Ground mounted project at Nikol Near Jorapura Ta. Kapadvanj Dist. Kheda in 2023.</p>
+        </div>
+        <!-- SUKI VILLAGE -->
+        <div class="bg-white p-4 rounded-xl shadow" data-aos="fade-up" data-aos-delay="200">
+          <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=600&q=80" alt="Suki Village" class="rounded mb-2 h-50 w-full object-cover">
+          <h4 class="font-bold mb-1">SUKI VILLAGE</h4>
+          <p class="text-gray-700 text-sm">100% Solar powered village in 2024, first self-finance solar village in the world.</p>
+        </div>
+        <!-- BAPS MANDIR -->
+        <div class="bg-white p-4 rounded-xl shadow" data-aos="fade-up" data-aos-delay="300">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="BAPS Mandir" class="rounded mb-2 h-50 w-full object-cover">
+          <h4 class="font-bold mb-1">BAPS MANDIR</h4>
+          <p class="text-gray-700 text-sm">Installed more than 100 Kwp on grid solar rooftop systems at BAPS temple in Gujarat.</p>
+        </div>
+        <!-- INDUSTRIAL SOLAR -->
+        <div class="bg-white p-4 rounded-xl shadow" data-aos="fade-up" data-aos-delay="400">
+          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Industrial Solar" class="rounded mb-2 h-50 w-full object-cover">
+          <h4 class="font-bold mb-1">INDUSTRIAL SOLAR</h4>
+          <p class="text-gray-700 text-sm">Installed on grid solar rooftop systems in Gujarat for Rank Additives, Tushar Hoses, BPCL Petrol Pumps, IOCL Petrol Pumps, HPCL Nayara Pumps (almost 500 kwp).</p>
+        </div>
+        <!-- GOVERNMENT BUILDINGS -->
+        <div class="bg-white p-4 rounded-xl shadow" data-aos="fade-up" data-aos-delay="500">
+          <img src="https://images.unsplash.com/photo-1468421870903-4df1664ac249?auto=format&fit=crop&w=600&q=80" alt="Government Buildings" class="rounded mb-2 h-50 w-full object-cover">
+          <h4 class="font-bold mb-1">GOVERNMENT BUILDINGS</h4>
+          <p class="text-gray-700 text-sm">Installed on grid solar rooftop systems in schools, ashram shalas, health centers, Taluka Panchayat Office, and APMC (more than 500 kwp).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="py-16">
+    <div class="container mx-auto px-4" data-aos="fade-up">
+      <h2 class="text-3xl sm:text-4xl font-bold text-[#1976D2] mb-6 text-center">Contact Us</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <iframe src="https://www.google.com/maps?q=Sitaram%20Residency%2C%20Near%20Astha%20Hospital%2C%20Khergam%2C%20District%20Navsari%20%E2%80%93%20396040&output=embed" width="100%" height="420" class="border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="flex flex-col justify-center space-y-4">
+          <div>
+            <h4 class="font-bold">Address</h4>
+            <p class="text-gray-700">SHREE SAI ENTERPRISE, <br>Sitaram Residency, Near Astha Hospital, Khergam, District Navsari – 396040</p>
+          </div>
+          <div>
+            <h4 class="font-bold">Dipesh Patel</h4>
+            <a href="tel:+9181281 71111"><i class="fas fa-phone-alt"> </i>
+              <span>+91-8128171111 </span></a>
+          </div>
+          <div>
+            <h4 class="font-bold">Yogendra Patel</h4>
+            <a href="tel:+919265116065"><i class="fas fa-phone-alt"> </i>
+              <span>+91-9265116065</span></a>
+          </div>
+          <div>
+            <h4 class="font-bold">Email</h4>
+            <a href="mailto:shreesaienterprise75@gmail.com"><i class="fas fa-envelope"></i>
+              <span>shreesaienterprise75@gmail.com</span></a>
+          </div>
+          <br>
+          <div>
+            <a href="https://wa.me/919428282899?text=Hello%20I%20want%20to%20know%20more%20about%20the%20solar%20plant%20installation%20and%20inverter%20setup" target="_blank" rel="noopener noreferrer" class="bg-[#008000] hover:bg-green-600 text-white px-6 py-4 rounded-xl font-bold transition">Click here to chat with us</a>
+          </div>
+          <br>
+          <div>
+            <a href="https://wa.me/919428282899?text=Hello,%20I%20need%20your%20consultation" target="_blank" rel="noopener noreferrer" class="bg-[#F79517] hover:bg-orange-600 text-white px-6 py-4 rounded-xl font-bold transition">Get Free Consultation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Start -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Left: Company Info -->
+      <div class="footer-col company-info">
+        <img src="assets/flogo.png" alt="Company Logo" class="footer-logo" />
+        <p>
+          Shree Sai Enterprize was started with a vision to deliver sustainable energy solutions for all. In addition, we believe in conserving energy while generating power through alternate sources.
+        </p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <!-- Middle: Useful Links -->
+      <div class="footer-col useful-links">
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Right: Contact Us -->
+      <div class="footer-col contact-us">
+        <h3>Contact Us</h3>
+        <ul>
+          <li>
+            <a href="tel:+919265116065"><i class="fas fa-phone-alt"></i>
+              <span>+91- 9265116065 </span></a>
+          </li>
+          <li>
+            <a href="mailto:shreesaienterprise75@gmail.com"><i class="fas fa-envelope"></i>
+              <span>shreesaienterprise75@gmail.com</span></a>
+          </li>
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>SHREE SAI ENTERPRISE, <br>Sitaram Residency, Near Astha Hospital, Khergam, District Navsari – 396040</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2011–2024 Shree Sai Enterprize <br> All Rights Reserved <br>
+      Designed and Developed By <a   href="https://www.lookandlikecreation.in/" target="_blank">Look And Like Creation</a>
+    </div>
+    <!-- Floating Chat Widget (example only) -->
+    <div class="chat-widget">
+      <a href="https://wa.me/919428282899?text=Hello%20I%20want%20to%20know%20more%20about%20the%20solar%20plant%20installation%20and%20inverter%20setup" target="_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp"> </i> 
+        <span>We're Online!</span></a>
+    </div>
+  </footer>
+  <!-- Footer End -->
+  <script>
+    AOS.init();
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    // Close mobile menu on link click
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+  </script>
+</body>
+</html> 
